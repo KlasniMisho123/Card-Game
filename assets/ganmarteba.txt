@@ -1,1 +1,3 @@
 პირველ სქრინში ნაჩვენებია თავდაპირველი პოზიცია, ბუთონ ღილაკზე დაკლიკებით ისე უნდა აიჩეხოს რომ გვერდი გვერდე არ მოხვდეს ერთნაირი ფერები როგორც მეორე სქრინში. თავდაპირველად არის 16 აჩეხვის შემდეგ უნდა გაიცხრილოს და დაღცეს ჯერ 8 შემდეგ 4 ბოლოს 2 და გამოვლიდეს გამარჯვებული ისე რო ერთი ფერების ან რიცხვებით დანომრილები არ მოხვდნენ ერთად
+
+In the first screen, the initial position is shown, by clicking on the button, it should be moved so that the same colors as in the second screen do not fall side by side. Initially, there are 16, and then they must be sorted and drawn first 8, then 4, finally 2 and the winner will be selected so that those numbered with the same colors or numbers do not fall together.
