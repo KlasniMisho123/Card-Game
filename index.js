@@ -1,4 +1,6 @@
 const audio = new Audio("./assets/click.mp3");
+const winnerS = new Audio("./assets/winner.wav")
+
 let gameStarted = false;
 let clickCount = 0;
 
@@ -21,6 +23,7 @@ $(document).ready(function() {
             } else if (clickCount === 4) {
                 removeRandomColor();
                 declareWinner();
+                
                 clickCount = 0;
             }
         }
@@ -87,6 +90,7 @@ function declareWinner() {
     if (remainingItems.length === 1) {
         if ($('.background-div').children('h1').length === 0) {
             $('.background-div').append('<h1>WINNER</h1>');
+            winnerS.play();
         }
     } else {
         alert('No winner. Try again!');
